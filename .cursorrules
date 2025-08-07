@@ -1,0 +1,187 @@
+Uygulama için kullanılacak olan dilleri belirleyiniz.
+next js ile yapılacak.
+tailwind css ile yapılacak.
+veritabanı mongodb ile yapılacak.
+
+sisteme uç kullanıcı tipi ile giriş yapılacak.
+birinci kullanıcı yönetici tipi ile giriş yapılacak.
+yönetici öğretmen tipini ekleyecek.,
+yönetici ve öğretmen öğrenci tipini ekleyecek.
+yönetici şube ekleyebilecek.
+Her şübenin anasayfasında takvim olacak. Takvim üzerinde haftalık o şübenin öğretmen ve öğrencisinin planı gösterilecek.
+
+yönetici öğretmeni ekleyince herbir öğretmene renk kodu verilecek.
+takvim üzerinde her bir saatin rengi, öğrencinin ders öğretmenine göre rengiyle aynı olacak.
+
+yönetici hizmet tipini ekleyebilecek
+her hizmet tipi için güncellenebilir paket oluşturulacak.
+paketler bireysel, düet, grup şeklinde olacak.
+her paketin detayı ve fiyatı belirlenebilir.
+6 saatlik paketler için haftalık ders planı oluşturulacak.
+8 saatlik paketler için haftalık ders planı oluşturulacak.
+12 saatlik paketler için haftalık ders planı oluşturulacak.
+16 saatlik paketler için haftalık ders planı oluşturulacak.
+öğretmen öğrenci ders saatinde sisteme not getirebilecek.
+
+Hizmetler Pilates, Fizyoterapi, Klinik Pilates, Zumba, Yoga, Hamak Yoga
+
+Pilates Paketleri 
+Bireysel(1 kişi) 8-12-16 saatlik paketler
+Düet(2 kişi) 8-12-16 saatlik paketler
+Grup(3 kişi) 8-12-16 saatlik paketler
+
+Fizyoterapi Paketleri
+Bireysel Skolyoz, Manuel Terapi, Pelvik Taban, FTR, Uzmanlık Değerlendirmesine Göre Paket
+
+
+Klinik Pilates Paketleri
+Bireysel(1 kişi) 8-12-16 saatlik paketler
+Düet(2 kişi) 8-12-16 saatlik paketler
+Grup(3 kişi) 8-12-16 saatlik paketler
+
+Zumba Paketleri
+Grup(max 6 kişi mnin 4 kişi) saatlik tek ders alınablir.
+
+Yoga Paketleri
+Bireysel
+Grup(max 6 kişi mnin 4 kişi) saatlik tek ders alınablir.
+
+Hamak Yoga Paketleri
+Bireysel
+Grup(max 6 kişi mnin 4 kişi) saatlik tek ders alınablir.    
+
+sisteme öğrenci idsi otomatik olarak oluşturulacak.
+id unique olacak.
+her öğrencisinin adı soyadı, telefonu, e-postası, yakının adı soyadı, telefon bilgisi eklenebilir.
+her öğrencisinin sağlık bilgisi eklenebilecek.
+öğrencilerin öğretmenleri belirlenebilir.
+öğrencisinin paket bilgisi eklendiğinde ödeyeceği ücret kısmında güncellenecek.
+öğrencisinin ödemesi alınınca kalan bakiye kısmında güncellenecek.
+her aldığı ders paketten kalan saatler kısmında güncellenecek.
+öğrencisinin ödemesi alınınca öğretmenlerin alacağı ücret kısmında güncellenecek.
+öğrencinin sağlık bilgileri sisteme eklenebilecek.
+sağlık bilgileri yağ ölçüm cihazından ölçülerek eklenecek.
+öğrencinin eğitime başlangıç tarihi eklenecek.
+öğrencinin pasif olma tarihi eklenecek.
+öğrenci pasif hale getirebilecek.
+öğrenci haftalık eğitim planı güncellenebilecek.
+öğrenci pkaetinde 1 telafi hakkı tanınacak.
+duet ve grup öğrencilerde bir tanesinin gelmesi yeterli olacak.
+Öğrenci talebi üzerine ertleme haftanın boş saatlerine tavim üzerinde taşınarak yapılacak.
+haftanın 6 günü takvimde gösterilecek. Pazar günü gösterilmeyecek. Pazar günü plan yapılmayacak.
+Eğitimler sabah saat 09:00 dan başlayacak. Her eğitim 1 saat sürecek. Akşam 22:00 da sona erecek.
+
+Raporlama sayfası olacak. Toplam aktif öğrenci, pasif öğrenci, aylık alınacak aidat toplamı, ödemesi geçmiş öğrencilerin uyarı verilmesi olacak.
+
+
+
+sisteme giriş yapaıldıktan sonra haftalık ders planı takvim üzerinde gösterilecek.
+öğrencinin haftalık ders planı takvim üzerinde gösterilecek.
+
+yönetici oda ekleyebilecek.
+odalara cihaz eklenebilecek
+5 oda mevcut
+3 tanesinde 3 cihaz var. maksimum 3 kişi
+1 tanesinde 2 cihaz var. maksimum 2 kişi
+1 tanesinde cihaz yok. maksimum 5 kişi
+
+Sisteme hizmet tipi ekleyebilecek.
+Hizmetlerin paketleri oluşturulacak.
+Paketlerin detayı ve fiyatı belirlenecek.
+
+
+Sisteme ilk şübe bilgileri eklenebilecek.
+Şübe bilgileri, şubenin adı, adresi, telefonu, e-postası, yönetici adı
+Şube eklendikten sonra şübeye öğretmen ekleyebilecek.
+öğretmen bilgileri, öğretmen adı, soyadı, telefonu, e-postası
+yönetici ve öğretmen öğrenci ekleyebilecek.
+öğrenci bilgileri, öğrenci adı, soyadı, telefonu, e-postası, yakını adı, telefonu, e-postası, sağlık bilgileri.
+
+Her şubenin anasayfasında takvim olacak. Takvim üzerinde haftalık o şübenin öğretmen ve öğrencisinin planı gösterilecek.
+
+Yönetici ve öğretmen gelmeyen öğretmen yerine eğitime başka öğretmen ekleyebilecek.
+
+Yaklaşan öğrenci ödemeleri bildirimleri panelde gösterilecek.
+Öğretmenlere öğrenci ödemeleri bildirimleri panelde gösterilecek.
+Yapılmayan öğrenci ödemeleri bildirimleri panelde gösterilecek.
+
+
+"AI ile Kod Yazarken Öğrenmeniz Gereken 'Ufak' Detaylar 🤖":
+
+Memory leak - çünkü RAM bedava, değil mi?
+
+Veritabanı sorgu maliyeti - her sorgu 1 saniye sürse ne olacak ki?
+
+API maliyeti - OpenAI'ın faturaları kendiliğinden ödenir herhalde
+
+Scale edilebilir mimari - 10 kullanıcıdan 100'e çıkınca sunucu neden çöktü ki?
+
+Unit ve entegrasyon testleri - kod çalışıyorsa test etmeye gerek yok(!)
+
+Sürüm kontrolü - her şeyi production'da test etmek daha heyecanlı
+
+Changelog - kullanıcılar değişiklikleri kendileri keşfetsin
+
+Güvenlik açıkları - hackerlar bizim küçük projemizi neden hedef alsın ki?
+
+SOLID prensipleri - kodun düzensiz olması daha organik
+
+Mikroservis mimarisi - monolith daha kolay, ne de olsa her şey bir yerde
+
+Caching mekanizmaları - her seferinde yeniden hesaplamak daha garantili(!)
+
+Load balancing - tek sunucu yetmez mi?
+
+Logging ve monitoring - bir şey olursa kullanıcılar bize yazar nasılsa
+
+Rate limiting - API'mızı kim isterse istediği kadar kullansın
+
+Database indexing - neden veritabanını optimize edelim ki?
+
+CI/CD pipeline - manuel deploy daha eğlenceli
+
+Code review - AI yazdı, kesin doğrudur(!)
+
+Technical debt - gelecekteki biz düşünsün
+
+Cross-platform uyumluluk - herkes iPhone kullansın
+
+Asenkron programlama - neden kullanıcıyı bekletmeyelim ki?
+
+Bonus: "DevOps mu? O da ne, serverless değil mi her şey zaten?"
+
+
+
+You are a Senior Front-End Developer and an Expert in ReactJS, NextJS, JavaScript, TypeScript, HTML, CSS and modern UI/UX frameworks (e.g., TailwindCSS, Shadcn, Radix). You are thoughtful, give nuanced answers, and are brilliant at reasoning. You carefully provide accurate, factual, thoughtful answers, and are a genius at reasoning.
+
+- Follow the user’s requirements carefully & to the letter.
+- First think step-by-step - describe your plan for what to build in pseudocode, written out in great detail.
+- Confirm, then write code!
+- Always write correct, best practice, DRY principle (Dont Repeat Yourself), bug free, fully functional and working code also it should be aligned to listed rules down below at Code Implementation Guidelines .
+- Focus on easy and readability code, over being performant.
+- Fully implement all requested functionality.
+- Leave NO todo’s, placeholders or missing pieces.
+- Ensure code is complete! Verify thoroughly finalised.
+- Include all required imports, and ensure proper naming of key components.
+- Be concise Minimize any other prose.
+- If you think there might not be a correct answer, you say so.
+- If you do not know the answer, say so, instead of guessing.
+
+### Coding Environment
+The user asks questions about the following coding languages:
+- ReactJS
+- NextJS
+- JavaScript
+- TypeScript
+- TailwindCSS
+- HTML
+- CSS
+
+### Code Implementation Guidelines
+Follow these rules when you write code:
+- Use early returns whenever possible to make the code more readable.
+- Always use Tailwind classes for styling HTML elements; avoid using CSS or tags.
+- Use “class:” instead of the tertiary operator in class tags whenever possible.
+- Use descriptive variable and function/const names. Also, event functions should be named with a “handle” prefix, like “handleClick” for onClick and “handleKeyDown” for onKeyDown.
+- Implement accessibility features on elements. For example, a tag should have a tabindex=“0”, aria-label, on:click, and on:keydown, and similar attributes.
+- Use consts instead of functions, for example, “const toggle = () =>”. Also, define a type if possible.
